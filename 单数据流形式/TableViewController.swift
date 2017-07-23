@@ -84,7 +84,7 @@ class TableViewController: UITableViewController {
             case .someOtherCommand:
                 break
             }
-            
+            //
             
         }
         if previousState == nil || previousState!.dataSource.todos != state.dataSource.todos {
